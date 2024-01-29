@@ -1,0 +1,263 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+
+	br {
+		display: none;
+	}
+}
+
+@media(max-width: 1600px) {
+	.main-sec {
+		font-size: 1.5vh;
+	}
+}
+
+@media(max-width: 1300px) {
+	.main-sec {
+		font-size: 1.25vh;
+	}
+}
+
+@media(max-width: 992px) {
+	.main-sec {
+		font-size: 1.125vh;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		letter-spacing: 0 !important;
+	}
+
+	.follow-col-one h3 {
+		width: 11em;
+	}
+
+	.ugly-sec h4 {
+		width: 11em;
+	}
+
+	.ugly-sec h3 {
+		width: 11em;
+	}
+
+	.chess-bg-content h3 {
+		width: 15em;
+	}
+
+	.chess-bg-content p {
+		width: 30em;
+	}
+
+	.ugly-sec2x h3 {
+		width: 7em;
+	}
+
+	.ugly-sec2x p {
+		width: 26em;
+	}
+}
+
+@media(max-width: 767px) {
+	.form-input {
+		width: initial;
+	}
+
+	.ugly-sec2x p {
+		width: initial;
+	}
+
+	.chess-bg-col-two .chess-bg-content h3 {
+		padding-left: 0;
+	}
+
+	.chess-bg-content h3 {
+		width: initial;
+	}
+
+	.chess-bg-content p {
+		width: initial;
+	}
+
+	.ugly-sec {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.ugly-sec h3 {
+		width: initial;
+	}
+
+	.customer-inner-col {
+		padding-top: 0;
+	}
+
+	.hero-sec {
+		justify-content: center;
+	}
+
+	.main-sec {
+		font-size: 0.6rem;
+	}
+
+	.customer-inner-one h2 {
+		width: initial;
+	}
+
+	.follow-col-two p {
+		width: initial;
+		margin-top: 1em;
+	}
+
+	.follow-col-two h3 {
+		width: initial;
+		padding-right: 0;
+	}
+
+	.follow-col-one h3 {
+		width: initial;
+	}
+
+	.only-text-sec {
+		justify-content: center;
+	}
+
+	.hero-content-two {
+		gap: 2em;
+	}
+
+	.hero-content-one h3 {
+		margin-bottom: 0.5em;
+	}
+
+	.only-text-content {
+		padding-left: 0;
+	}
+
+	.customer-inner-two {
+		padding-left: 0;
+	}
+
+	.form-head h5 {
+		font-size: 4.5em;
+	}
+
+	.chess-bg-col-one {
+		flex-direction: column;
+	}
+
+	.chess-bg-content {
+		width: 100vw;
+	}
+
+	.chess-bg-img {
+		width: 100vw;
+		height: 60vh;
+	}
+
+	.chess-bg-col-two {
+		flex-direction: column-reverse;
+	}
+
+	.chess-bg-content {
+		padding: 5em 4em 5em 4em;
+	}
+
+	.main-sec section {
+		padding: 1.25em 4em 1.25em 4em;
+		height: initial !important;
+		min-height: 100vh !important;
+		border-bottom: 1px solid #000 !important;
+	}
+
+	.menu-nav-sec {
+		padding: 1.25em 4em 1.25em 4em;
+	}
+
+	.chess-bg-sec {
+		padding: 0 !important;
+		padding-bottom: 1.25em !important;
+	}
+
+	.only-text-content {
+		width: initial;
+	}
+
+	.hero-content-inner {
+		width: initial;
+	}
+
+	p {
+		font-size: 1.75em !important;
+		width: initial !important;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 3em !important;
+		width: initial !important;
+	}
+	.menu-nav-sec{
+		padding-bottom: 10em !important;
+		padding-left: 3em !important;
+	}
+}
+
+@media(max-width: 570px) {
+
+	.ugly-sec h4 {
+		width: initial;
+	}
+
+	.form-head h5 {
+		font-size: 4em;
+	}
+
+	.ugly-sec2x h3 {
+		font-size: 5em;
+	}
+
+	.customer-inner-one h2 {
+		font-size: 5em;
+	}
+
+	.chess-bg-content {
+		justify-content: start;
+		align-items: self-start;
+	}
+
+	.chess-bg-content {
+		padding: 4em 1.25em 4em 1.25em;
+	}
+
+	.main-sec section {
+		padding: 1.25em 1.25em 1.25em 1.25em;
+	}
+
+	.menu-nav-sec {
+		padding: 1.25em 1.25em 1.25em 1.25em;
+	}
+}
